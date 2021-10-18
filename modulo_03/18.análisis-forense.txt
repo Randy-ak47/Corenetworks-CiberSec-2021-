@@ -1,0 +1,113 @@
+INFORMACI�N DEL SISTEMA
+�systeminfo /fo list
+�msinfo32
+�net statistics workstation
+�sc query state=all
+�tasklist
+�tasklist /svc
+---------------
+?Registrado:
+?XP SP3
+?AMD Athlon 512Mb
+?Usuario: Administrador
+?Uso horario GMT+5
+---------------
+regedit:
+Fecha de instalaci�n
+?HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+?UnixTime:6516515615641
+-------------
+Software instalado 
+?Directorio �ProgramFiles/Archivos de Programa�.
+?Registro
+?Panel de control
+-------------
+Procesos en ejecuci�n:
+- Process Explorer -Microsoft
+- HijackThis
+- Autorunsc -Microsoft
+Servicios en ejecuci�n: Autorunsc -Microsoft
+An�lisis de arranque: Autorunsc -Microsoft
+Otras Herramientas: 
+- SpyBot:
+- Rootkits
+- Drivers instalados
+-------------
+AN�LISIS EVENTOS
+C:\WINDOWS\setupact.log
+Contiene informaci�n acerca de las acciones de 
+instalaci�n durante la instalaci�n
+
+C:\WINDOWS\setuperr.log 
+Contiene informaci�n acerca de los 
+errores de instalaci�n durante la instalaci�n.
+
+C:\WINDOWS\miglog.xml 
+Contiene informaci�n acerca de la 
+estructura de directorios del usuario. 
+Esta informaci�n incluye los 
+identificadores de seguridad (SID).
+
+C:\WINDOWS\setupapi.dev.log 
+Contiene informaci�n acerca de los dispositivos 
+Plug and Play y la instalaci�n de 
+controladores
+
+C:\WINDOWS\setupapi.app.log 
+Contiene informaci�n 
+acerca de la instalaci�n de aplicaciones.
+
+C:\WINDOWS\Panther\PostGatherPnPList.log
+Contiene informaci�n acerca de la captura de 
+dispositivos que est�n en el sistema 
+despu�s de la fase de configuraci�n con conexi�n
+
+C:\WINDOWS\Panther\PreGatherPnPList.log 
+Contiene informaci�n acerca de la 
+captura inicial de dispositivos 
+que est�n en el sistema durante la 
+fase de nivel inferior.
+
+-----------------------
+
+AN�LISIS REGISTRO
+MUICache-Nirsoft
+UserAssist
+
+---------------------
+
+AN�LISIS:ACTIVIDAD DEL USUARIO
+Windows File Analyzer
+Alternate Stream View (nirsoft)
+MacMatch � NTSecurity.ru
+Macmatch.exe c:\ -a 2000-19-12:15.00 2009-20-12:23.59
+USBDView - Nirsoft
+
+---------------------
+
+AN�LISIS TEMPORALES
+MyLastSearch - Nirsoft
+index.dat Analyzer 
+irfanview - im�genes en cach�
+IEhistoryview
+Historial MSN (mis archivos recibidos) 
+Contactos MSN - Live contatcs View
+Documentos impresos:
+-Archivos temporales en: 
+C:\Windows\system32\spool\Printers
+-Herramientas:
+	- SPLView
+	- EMFSpoolViewer
+
+--------------------
+
+AN�LISIS BUSQUEDA DE DATOS ELIMINADOS Y �SLACKSPACE�
+
+Carving:
+- foremost, scalpel, photorec
+- getdatetrack
+- winhex
+
+--------------------
+
+Crear una l�nea temporal
